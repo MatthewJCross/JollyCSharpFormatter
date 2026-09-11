@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>JollyCSharpFormatter</AssemblyName>
+    <RootNamespace>JollyCSharpFormatter</RootNamespace>
+    <ApplicationIcon>Resources\CSharpFormatter.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="CSharpFormatter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\CSharpFormatter.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="5.9.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="5.9.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="CSharpFormatter.png" />
+    <Resource Include="Resources\CSharpFormatter.png" />
+  </ItemGroup>
+</Project>
