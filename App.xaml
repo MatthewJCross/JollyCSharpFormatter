@@ -6,13 +6,54 @@
         <ResourceDictionary>
             <Style TargetType="Button" x:Key="RoundButton">
                 <Setter Property="Width" Value="120" />
+
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Grid x:Name="LayoutRoot"
+                      Background="Transparent"
+                      Height="30">
+
+                                <TextBlock x:Name="txt"
+                               Text="{TemplateBinding Content}"
+                               FontFamily="Segoe UI"
+                               FontSize="13"
+                               Foreground="White"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"/>
+
+                            </Grid>
+
+                            <ControlTemplate.Triggers>
+
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter TargetName="LayoutRoot"
+                                Property="Background"
+                                Value="#E5E5E5"/>
+
+                                    <Setter TargetName="txt"
+                                Property="Foreground"
+                                Value="#000000"/>
+                                </Trigger>
+
+                                <Trigger Property="IsPressed" Value="True">
+                                    <Setter TargetName="LayoutRoot"
+                                Property="Background"
+                                Value="#CFCFCF"/>
+                                </Trigger>
+
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+
                 <Style.Resources>
                     <Style TargetType="Border">
-                        <Setter Property="CornerRadius" Value="5" />
+                        <Setter Property="CornerRadius" Value="5"/>
                     </Style>
                 </Style.Resources>
             </Style>
-
+            
             <Style x:Key="CaptionButtonStyle" TargetType="Button">
                 <Setter Property="Template">
                     <Setter.Value>
