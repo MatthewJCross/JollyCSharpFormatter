@@ -4,7 +4,7 @@
 		Title="Jolly C# Formatter" Width="1600"	Height="950" MinWidth="1000" MinHeight="600" Foreground="#E8E8E8" Background="Transparent" WindowStyle="None" AllowsTransparency="True"
         AllowDrop="True"	PreviewDragOver="Window_PreviewDragOver" PreviewDrop="Window_PreviewDrop" StateChanged="Window_StateChanged">
     <WindowChrome.WindowChrome>
-        <WindowChrome CaptionHeight="0" />
+        <WindowChrome CaptionHeight="34" />
     </WindowChrome.WindowChrome>
     
     <Window.CommandBindings>

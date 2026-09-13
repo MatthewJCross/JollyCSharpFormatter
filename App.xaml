@@ -5,14 +5,19 @@
     <Application.Resources>
         <ResourceDictionary>
             <Style TargetType="Button" x:Key="RoundButton">
-                <Setter Property="Width" Value="120" />
+                <Setter Property="Width" Value="80"/>
+                <Setter Property="Height" Value="30"/>
+                <Setter Property="Margin" Value="0,0,5,0"/>
 
                 <Setter Property="Template">
                     <Setter.Value>
                         <ControlTemplate TargetType="Button">
-                            <Grid x:Name="LayoutRoot"
-                      Background="Transparent"
-                      Height="30">
+                            <Border x:Name="ButtonBorder"
+                        Background="Transparent"
+                        BorderBrush="#666666"
+                        BorderThickness="1"
+                        CornerRadius="5"
+                        Padding="8,0">
 
                                 <TextBlock x:Name="txt"
                                Text="{TemplateBinding Content}"
@@ -22,14 +27,18 @@
                                HorizontalAlignment="Center"
                                VerticalAlignment="Center"/>
 
-                            </Grid>
+                            </Border>
 
                             <ControlTemplate.Triggers>
 
                                 <Trigger Property="IsMouseOver" Value="True">
-                                    <Setter TargetName="LayoutRoot"
+                                    <Setter TargetName="ButtonBorder"
                                 Property="Background"
                                 Value="#E5E5E5"/>
+
+                                    <Setter TargetName="ButtonBorder"
+                                Property="BorderBrush"
+                                Value="#888888"/>
 
                                     <Setter TargetName="txt"
                                 Property="Foreground"
@@ -37,23 +46,24 @@
                                 </Trigger>
 
                                 <Trigger Property="IsPressed" Value="True">
-                                    <Setter TargetName="LayoutRoot"
+                                    <Setter TargetName="ButtonBorder"
                                 Property="Background"
                                 Value="#CFCFCF"/>
                                 </Trigger>
 
+                                <Trigger Property="IsEnabled" Value="False">
+                                    <Setter TargetName="ButtonBorder"
+                                Property="Opacity"
+                                Value="0.5"/>
+                                </Trigger>
+
                             </ControlTemplate.Triggers>
+
                         </ControlTemplate>
                     </Setter.Value>
                 </Setter>
-
-                <Style.Resources>
-                    <Style TargetType="Border">
-                        <Setter Property="CornerRadius" Value="5"/>
-                    </Style>
-                </Style.Resources>
             </Style>
-            
+
             <Style x:Key="CaptionButtonStyle" TargetType="Button">
                 <Setter Property="Template">
                     <Setter.Value>
