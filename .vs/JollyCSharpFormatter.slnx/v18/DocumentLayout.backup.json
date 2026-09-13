@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projects\\JollyCSharpFormatter\\",
+  "WorkspaceRootPath": "D:\\JollyCSharpFormatter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6824067D-4B9F-5A36-7E38-FDB86630C06E}|JollyCSharpFormatter.csproj|d:\\projects\\jollycsharpformatter\\jollycsharpformatter.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{6824067D-4B9F-5A36-7E38-FDB86630C06E}|JollyCSharpFormatter.csproj|d:\\jollycsharpformatter\\jollycsharpformatter.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{6824067D-4B9F-5A36-7E38-FDB86630C06E}|JollyCSharpFormatter.csproj|solutionrelative:jollycsharpformatter.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6824067D-4B9F-5A36-7E38-FDB86630C06E}|JollyCSharpFormatter.csproj|d:\\projects\\jollycsharpformatter\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6824067D-4B9F-5A36-7E38-FDB86630C06E}|JollyCSharpFormatter.csproj|d:\\jollycsharpformatter\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6824067D-4B9F-5A36-7E38-FDB86630C06E}|JollyCSharpFormatter.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6824067D-4B9F-5A36-7E38-FDB86630C06E}|JollyCSharpFormatter.csproj|d:\\projects\\jollycsharpformatter\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6824067D-4B9F-5A36-7E38-FDB86630C06E}|JollyCSharpFormatter.csproj|d:\\jollycsharpformatter\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6824067D-4B9F-5A36-7E38-FDB86630C06E}|JollyCSharpFormatter.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6824067D-4B9F-5A36-7E38-FDB86630C06E}|JollyCSharpFormatter.csproj|d:\\projects\\jollycsharpformatter\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{6824067D-4B9F-5A36-7E38-FDB86630C06E}|JollyCSharpFormatter.csproj|d:\\jollycsharpformatter\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6824067D-4B9F-5A36-7E38-FDB86630C06E}|JollyCSharpFormatter.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6824067D-4B9F-5A36-7E38-FDB86630C06E}|JollyCSharpFormatter.csproj|d:\\projects\\jollycsharpformatter\\formatting\\csharpformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6824067D-4B9F-5A36-7E38-FDB86630C06E}|JollyCSharpFormatter.csproj|d:\\jollycsharpformatter\\formatting\\csharpformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6824067D-4B9F-5A36-7E38-FDB86630C06E}|JollyCSharpFormatter.csproj|solutionrelative:formatting\\csharpformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6824067D-4B9F-5A36-7E38-FDB86630C06E}|JollyCSharpFormatter.csproj|d:\\projects\\jollycsharpformatter\\formatting\\formatteroptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6824067D-4B9F-5A36-7E38-FDB86630C06E}|JollyCSharpFormatter.csproj|d:\\jollycsharpformatter\\formatting\\formatteroptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6824067D-4B9F-5A36-7E38-FDB86630C06E}|JollyCSharpFormatter.csproj|solutionrelative:formatting\\formatteroptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -44,9 +44,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "JollyCSharpFormatter",
-              "DocumentMoniker": "D:\\Projects\\JollyCSharpFormatter\\JollyCSharpFormatter.csproj",
+              "DocumentMoniker": "D:\\JollyCSharpFormatter\\JollyCSharpFormatter.csproj",
               "RelativeDocumentMoniker": "JollyCSharpFormatter.csproj",
-              "ToolTip": "D:\\Projects\\JollyCSharpFormatter\\JollyCSharpFormatter.csproj",
+              "ToolTip": "D:\\JollyCSharpFormatter\\JollyCSharpFormatter.csproj",
               "RelativeToolTip": "JollyCSharpFormatter.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-09-11T06:53:18.716Z",
@@ -56,9 +56,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "App.xaml",
-              "DocumentMoniker": "D:\\Projects\\JollyCSharpFormatter\\App.xaml",
+              "DocumentMoniker": "D:\\JollyCSharpFormatter\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "D:\\Projects\\JollyCSharpFormatter\\App.xaml",
+              "ToolTip": "D:\\JollyCSharpFormatter\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-09-11T06:36:21.006Z",
@@ -68,9 +68,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Projects\\JollyCSharpFormatter\\MainWindow.xaml",
+              "DocumentMoniker": "D:\\JollyCSharpFormatter\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "D:\\Projects\\JollyCSharpFormatter\\MainWindow.xaml",
+              "ToolTip": "D:\\JollyCSharpFormatter\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-09-10T15:56:43.996Z",
@@ -80,40 +80,37 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "FormatterOptions.cs",
-              "DocumentMoniker": "D:\\Projects\\JollyCSharpFormatter\\Formatting\\FormatterOptions.cs",
+              "DocumentMoniker": "D:\\JollyCSharpFormatter\\Formatting\\FormatterOptions.cs",
               "RelativeDocumentMoniker": "Formatting\\FormatterOptions.cs",
-              "ToolTip": "D:\\Projects\\JollyCSharpFormatter\\Formatting\\FormatterOptions.cs",
+              "ToolTip": "D:\\JollyCSharpFormatter\\Formatting\\FormatterOptions.cs",
               "RelativeToolTip": "Formatting\\FormatterOptions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T10:11:53.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-10T10:11:53.427Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "CSharpFormatter.cs",
-              "DocumentMoniker": "D:\\Projects\\JollyCSharpFormatter\\Formatting\\CSharpFormatter.cs",
+              "DocumentMoniker": "D:\\JollyCSharpFormatter\\Formatting\\CSharpFormatter.cs",
               "RelativeDocumentMoniker": "Formatting\\CSharpFormatter.cs",
-              "ToolTip": "D:\\Projects\\JollyCSharpFormatter\\Formatting\\CSharpFormatter.cs",
+              "ToolTip": "D:\\JollyCSharpFormatter\\Formatting\\CSharpFormatter.cs",
               "RelativeToolTip": "Formatting\\CSharpFormatter.cs",
               "ViewState": "AgIAAF8AAAAAAAAAAAAcwGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T09:50:01.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-10T09:50:01.794Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Projects\\JollyCSharpFormatter\\MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\JollyCSharpFormatter\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "D:\\Projects\\JollyCSharpFormatter\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\JollyCSharpFormatter\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAApwBYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T09:47:35.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-10T09:47:35.868Z"
             }
           ]
         }
